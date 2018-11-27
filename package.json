@@ -1,6 +1,6 @@
 {
   "name": "fc-gotcha",
-  "version": "8.0.0",
+  "version": "9.0.0",
   "description": "A package to illustate a security problem",
   "main": "index.js",
   "scripts": {
