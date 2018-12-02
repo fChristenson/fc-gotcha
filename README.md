@@ -2,7 +2,7 @@
 
 ## What we will cover
 
-* The most fundamental problem with Node security
+* A fundamental problem with Node security
 * What to look out for
 
 ## Notes
